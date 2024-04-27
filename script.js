@@ -1,7 +1,10 @@
 const stickySections = [...document.querySelectorAll('.sticky')]
 
 let images = [
+    'images/ridleyscott.png',
+    'images/grahamlinehan.png',
     'images/quentintarantino.png',
+    'images/christophernolan.png',
 ]
 
 images.forEach(img => {
