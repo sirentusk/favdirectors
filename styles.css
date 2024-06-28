@@ -1,10 +1,7 @@
-/* Reset and Base Styles */
-/* Reset default browser styles. */
-
 * {
     color: rgb(195, 195, 195);
     scroll-snap-type: y mandatory;    
-	box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: calc(15px + 0.390625vw);
@@ -42,9 +39,6 @@ html::-webkit-scrollbar-thumb:active { /* Chromium */
     border-radius: 10px;
 }
 
-/* Typography */
-/* For defining global font styles. */
-
 p {
     font-size: calc(12px + 0.390625vw);
 }
@@ -56,35 +50,9 @@ h2 {
     overflow: hidden;
 }
 
-h3 {
-    color: rgb(0, 127, 99);
-    font-family: 'Arabolical', fantasy;
-    font-size: calc(56px + 0.390625vw);
-    overflow: hidden;
-}
-
 a {
     color: rgb(0, 127, 99);
     text-decoration: none;
-}
-
-.scale {
-    font-weight: bold;
-    color: rgb(43, 154, 164);
-}
-
-.score {
-    font-weight: bold;
-    color: rgba(140, 84, 165, 0.8);
-}
-
-.percentile {
-    color: rgba(78,110,57,1);
-    
-}
-
-.bold {
-    font-weight: bold;
 }
 
 @font-face {
@@ -92,21 +60,6 @@ a {
 	src: url('font/Arabolical.ttf');
 	font-style: normal;
 }
-
-/*  Royalty free commercial use font attribution https://www.fontspace.com/arabolical-font-f1598 */
-
-/* Colors and Themes */
-/* Defining color variables. */
-
-
-
-/* Custom Properties */
-/* Defining reusable CSS variables. */
-
-
-
-/* Layout and Structure */
-/* Overall layout grid, wrappers, and structural elements. */
 
 section {
     background: radial-gradient(circle, rgba(78,110,57,1) 0%, rgba(35,0,36,1) 100%);
@@ -120,42 +73,15 @@ section {
     overflow: auto;
 }
 
-.page {
-    width: 50%;
-}
-
 .top {
-	position: fixed;
+    position: fixed;
     right: 15px;
-	bottom: 20px;
-	padding: 10px 10px 10px 12px;
-	background: rgba(35,0,36,1);
-	border-radius: 100px;
-	box-shadow: 3px 3px 10px #000000;
+    bottom: 20px;
+    padding: 10px 10px 10px 12px;
+    background: rgba(35,0,36,1);
+    border-radius: 100px;
+    box-shadow: 3px 3px 10px #000000;
 }
-
-/* Table Styles */
-/* Styles related table layout and formatting. */
-
-
-
-/* Navigation and Header */
-/* Styles specific to site navigation and header components. */
-
-
-
-/* Components and Modules */
-/* Reusable components like buttons, cards, modals, etc. */
-
-
-
-/* Forms and Inputs */
-/* Styling form elements and input fields. */
-
-
-
-/* Imagery and Videos */
-/* Styles related to images, videos and icons. */
 
 img {
     width: 100%;
@@ -172,19 +98,6 @@ img {
     margin-top: 50px;
     padding: 50px 50px 30px 50px;
 }
-
-/* Utilities and Helpers */
-/* Small reusable classes with a single purpose or function */
-
-
-
-/* Accessibility Enhancements */
-/* Improve accessibility like focus states and screen reader-only text. */
-
-
-
-/* Responsive Styles */
-/* Media queries and styles that target different screen sizes and devices. */
 
 @media only screen and (max-width: 920px) {
     .page {
@@ -214,28 +127,7 @@ img {
     }
 }
 
-/* State Styles */
-/* Pseudo-classes and interactive states like :hover, :focus, etc. */
-
 a:hover {
     color: rgb(43, 154, 164);
     cursor: pointer;
 }
-
-/* Animations and Keyframes */
-/* Defining CSS animations and keyframes. */
-
-
-
-/* Cross-Browser Compatibility */
-/* Styling across different browsers. */
-
-
-
-/* Footers */
-/* Styles specific to the footer section. */
-
-
-
-/* Print Styles */
-/* Styles that apply when the document is printed. */
