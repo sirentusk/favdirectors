@@ -72,9 +72,9 @@ h1 {
 }
 
 @font-face {
-	font-family: 'Arabolical';
-	src: url('font/Arabolical.ttf');
-	font-style: normal;
+    font-family: 'Arabolical';
+    src: url('font/Arabolical.ttf');
+    font-style: normal;
 }
 
 section {
@@ -88,16 +88,6 @@ section {
     line-height: 3;
     scroll-snap-align: start;
     overflow: auto;
-}
-
-.top {
-    position: fixed;
-    right: 15px;
-    bottom: 20px;
-    padding: 10px 10px 10px 12px;
-    background: rgba(35,0,36,1);
-    border-radius: 100px;
-    box-shadow: 3px 3px 10px #000000;
 }
 
 @media only screen and (max-width: 920px) {
