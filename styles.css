@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     font-size: calc(15px + 0.390625vw);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
 }    
 
@@ -63,6 +62,7 @@ section img {
 
 p {
     font-size: calc(12px + 0.390625vw);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
