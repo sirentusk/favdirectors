@@ -77,18 +77,18 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'showtime', fantasy;
+    font-family: 'undevelope', fantasy;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'showtime', fantasy;
+    font-family: 'undevelope', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
 }
 
 @font-face {
-    font-family: 'showtime';
-    src: url('font/showtime.ttf');
+    font-family: 'undevelope';
+    src: url('font/undevelope.ttf');
     font-style: normal;
 }
