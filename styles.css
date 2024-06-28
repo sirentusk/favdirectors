@@ -77,20 +77,20 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'Amadeus', fantasy;
+    font-family: 'Abaddon', fantasy;
     line-height: 1.5;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'Amadeus', fantasy;
+    font-family: 'Abaddon', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
     line-height: 1.5;
 }
 
 @font-face {
-    font-family: 'Amadeus';
-    src: url('font/Amadeus.ttf');
+    font-family: 'Abaddon';
+    src: url('font/Abaddon.ttf');
     font-style: normal;
 }
