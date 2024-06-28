@@ -77,19 +77,19 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'movieboard', fantasy;
+    font-family: 'movieola', fantasy;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'movieboard', fantasy;
+    font-family: 'movieola', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
 }
 
 @font-face {
-    font-family: 'movieboard';
-    src: url('font/movieboard.ttf');
+    font-family: 'movieola';
+    src: url('font/movieola.ttf');
     font-style: normal;
 }
 
@@ -100,14 +100,14 @@ h2 {
     
     h2 {
         color: rgb(0, 127, 99);
-        font-family: 'movieboard', fantasy;
+        font-family: 'movieola', fantasy;
         font-size: calc(76px + 0.390625vw);
         overflow: hidden;
     }
 
     h3 {
         color: rgb(0, 127, 99);
-        font-family: 'movieboard', fantasy;
+        font-family: 'movieola', fantasy;
         font-size: calc(40px + 0.390625vw);
         overflow: hidden;
     }
