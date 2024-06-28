@@ -77,20 +77,20 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'Anagram', fantasy;
+    font-family: 'greater_foundation', fantasy;
     line-height: 1.5;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'Anagram', fantasy;
+    font-family: 'greater_foundation', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
     line-height: 1.5;
 }
 
 @font-face {
-    font-family: 'Anagram';
-    src: url('font/Anagram.ttf');
+    font-family: 'greater_foundation';
+    src: url('font/greater_foundation.otf');
     font-style: normal;
 }
