@@ -56,6 +56,11 @@ section {
     width: 80%;
 }
 
+.page img {
+    width: 128px;
+    height: 128px;
+}
+
 p {
     font-size: calc(12px + 0.390625vw);
 }
