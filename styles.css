@@ -25,6 +25,11 @@ html {
     scrollbar-width: thin; /* Gecko */
 }
 
+html, body, main {
+     width: 100%;
+     height: 100%;
+}
+	
 html::-webkit-scrollbar { /* Chromium */
     width: 10px;
 }
