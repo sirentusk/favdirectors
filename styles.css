@@ -8,6 +8,16 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.top {
+    position: fixed;
+    right: 15px;
+    bottom: 20px;
+    padding: 10px 10px 10px 12px;
+    background: rgba(35,0,36,1);
+    border-radius: 100px;
+    box-shadow: 3px 3px 10px #000000;
+}
+
 html {
     background: rgb(35, 0, 36);
     text-shadow: 2px 2px 5px black;
