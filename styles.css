@@ -63,7 +63,7 @@ section img {
 section p img {
     width: 48px;
     height: 48px;
-    padding: 20px;
+    margin: 20px;
 }
 
 p {
