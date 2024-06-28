@@ -77,18 +77,18 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'movieboard', fantasy;
+    font-family: 'movietimes', fantasy;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'movieboard', fantasy;
+    font-family: 'movietimes', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
 }
 
 @font-face {
-    font-family: 'movieboard';
-    src: url('font/movieboard.ttf');
+    font-family: 'movietimes';
+    src: url('font/movietimes.ttf');
     font-style: normal;
 }
