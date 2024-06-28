@@ -77,18 +77,18 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'undeveloped', fantasy;
+    font-family: 'reed-of-love', fantasy;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'undeveloped', fantasy;
+    font-family: 'reed-of-love', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
 }
 
 @font-face {
-    font-family: 'undeveloped';
-    src: url('font/undeveloped.ttf');
+    font-family: 'reed-of-love';
+    src: url('font/reed-of-love.ttf');
     font-style: normal;
 }
