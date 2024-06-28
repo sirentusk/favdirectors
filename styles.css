@@ -55,14 +55,14 @@ section {
     width: 80%;
 }
 
-p img {
-    width: 150px;
-    height: 150px;
-}
-
 section img {
     width: 250px;
     height: 250px;
+}
+
+section p img {
+    width: 150px;
+    height: 150px;
 }
 
 p {
