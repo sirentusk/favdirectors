@@ -78,7 +78,7 @@ a:hover {
 h1 {
     font-size: 4rem;
     font-family: 'greater_foundation', fantasy;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 h2 {
@@ -86,7 +86,7 @@ h2 {
     font-family: 'greater_foundation', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 @font-face {
