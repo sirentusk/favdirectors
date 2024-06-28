@@ -77,19 +77,19 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'undevelope', fantasy;
+    font-family: 'undeveloped', fantasy;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'undevelope', fantasy;
+    font-family: 'undeveloped', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
 }
 
 @font-face {
-    font-family: 'undevelope';
-    src: url('font/undevelope.ttf');
+    font-family: 'undeveloped';
+    src: url('font/undeveloped.ttf');
     font-style: normal;
 }
 
@@ -100,14 +100,14 @@ h2 {
     
     h2 {
         color: rgb(0, 127, 99);
-        font-family: 'undevelope', fantasy;
+        font-family: 'undeveloped', fantasy;
         font-size: calc(76px + 0.390625vw);
         overflow: hidden;
     }
 
     h3 {
         color: rgb(0, 127, 99);
-        font-family: 'undevelope', fantasy;
+        font-family: 'undeveloped', fantasy;
         font-size: calc(40px + 0.390625vw);
         overflow: hidden;
     }
