@@ -67,7 +67,7 @@ p {
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'Arabolical', fantasy;
+    font-family: 'Filmstrip', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
 }
@@ -82,8 +82,8 @@ h1 {
 }
 
 @font-face {
-    font-family: 'Arabolical';
-    src: url('font/Arabolical.ttf');
+    font-family: 'Filmstrip';
+    src: url('font/Filmstrip.otf');
     font-style: normal;
 }
 
@@ -94,14 +94,14 @@ h1 {
     
     h2 {
         color: rgb(0, 127, 99);
-        font-family: 'Arabolical', fantasy;
+        font-family: 'Filmstrip', fantasy;
         font-size: calc(76px + 0.390625vw);
         overflow: hidden;
     }
 
     h3 {
         color: rgb(0, 127, 99);
-        font-family: 'Arabolical', fantasy;
+        font-family: 'Filmstrip', fantasy;
         font-size: calc(40px + 0.390625vw);
         overflow: hidden;
     }
