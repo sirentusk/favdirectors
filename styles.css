@@ -6,22 +6,14 @@
     font-size: calc(15px + 0.390625vw);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
-    color: rgb(195, 195, 195);
+}    
+
 html {
     background: rgb(35, 0, 36);
     text-shadow: 2px 2px 5px black;
     scrollbar-color: rgba(78,110,57,1) rgba(35,0,36,1) 100%; /* Gecko */
     scrollbar-width: thin; /* Gecko */
 }
-
-    scroll-snap-type: y mandatory;    
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-size: calc(15px + 0.390625vw);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 
 html::-webkit-scrollbar { /* Chromium */
     width: 10px;
