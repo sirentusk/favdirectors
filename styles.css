@@ -15,6 +15,11 @@ html {
     scrollbar-width: thin; /* Gecko */
 }
 
+div img {
+    max-width: 128px;
+    max-height: 128px;    
+}
+
 html::-webkit-scrollbar { /* Chromium */
     width: 10px;
 }
@@ -73,8 +78,6 @@ h1 {
 }
 
 .icon {
-    width: 128px;
-    height: 128px;
     max-width: 128px;
     max-height: 128px;
 }
@@ -86,6 +89,10 @@ h1 {
 }
 
 @media only screen and (max-width: 920px) {
+    .page {
+        width: 80%;
+    }
+    
     h2 {
         color: rgb(0, 127, 99);
         font-family: 'Arabolical', fantasy;
