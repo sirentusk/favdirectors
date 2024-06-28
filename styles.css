@@ -21,10 +21,3 @@ p {
 section {
     height: 100vh;
 }
-
-img {
-    width: 400px;
-    height: 80%;
-    object-fit: cover;
-    object-position: center;
-}
