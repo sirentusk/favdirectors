@@ -58,7 +58,6 @@ section {
 section img {
     width: 250px;
     height: 250px;
-    margin-top: 50px;
 }
 
 section p img {
@@ -76,6 +75,7 @@ p {
 a {
     color: rgb(0, 127, 99);
     text-decoration: none;
+    margin-bottom: 50px;
 }
 
 a:hover {
