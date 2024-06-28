@@ -15,11 +15,6 @@ html {
     scrollbar-width: thin; /* Gecko */
 }
 
-.page .icon {
-    max-width: 128px;
-    max-height: 128px;    
-}
-
 html::-webkit-scrollbar { /* Chromium */
     width: 10px;
 }
