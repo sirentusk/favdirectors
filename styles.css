@@ -51,18 +51,18 @@ section {
     overflow: auto;
 }
 
-section img {
-    width: 250px;
-    height: 250px;
+.page {
+    width: 80%;
 }
 
-img {
+p img {
     width: 150px;
     height: 150px;
 }
 
-.page {
-    width: 80%;
+section img {
+    width: 250px;
+    height: 250px;
 }
 
 p {
