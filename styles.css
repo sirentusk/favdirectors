@@ -15,6 +15,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 html {
     background: rgb(35, 0, 36);
     text-shadow: 2px 2px 5px black;
@@ -46,6 +47,19 @@ html::-webkit-scrollbar-thumb:active { /* Chromium */
     border-radius: 10px;
 }
 
+section {
+    height: 100vh;
+    background: radial-gradient(circle, rgba(78,110,57,1) 0%, rgba(35,0,36,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 3;
+    scroll-snap-align: start;
+    overflow: auto;
+}
+
 p {
     font-size: calc(12px + 0.390625vw);
 }
@@ -71,23 +85,15 @@ h1 {
      font-size: 4rem;
 }
 
+.icon {
+    width: 128px;
+    height: 128px;
+}
+
 @font-face {
     font-family: 'Arabolical';
     src: url('font/Arabolical.ttf');
     font-style: normal;
-}
-
-section {
-    height: 100vh;
-    background: radial-gradient(circle, rgba(78,110,57,1) 0%, rgba(35,0,36,1) 100%);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 3;
-    scroll-snap-align: start;
-    overflow: auto;
 }
 
 @media only screen and (max-width: 920px) {
