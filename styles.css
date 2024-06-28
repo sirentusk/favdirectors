@@ -77,20 +77,20 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'showtime', fantasy;
+    font-family: 'Anagram', fantasy;
     line-height: 1.5;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'showtime', fantasy;
+    font-family: 'Anagram', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
     line-height: 1.5;
 }
 
 @font-face {
-    font-family: 'showtime';
-    src: url('font/showtime.ttf');
+    font-family: 'Anagram';
+    src: url('font/Anagram.ttf');
     font-style: normal;
 }
