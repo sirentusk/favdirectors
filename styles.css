@@ -72,11 +72,7 @@ h1 {
     font-size: 4rem;
 }
 
-.page {
-    width: 80%;
-}
-
-div .icon {
+.icon {
     width: 128px;
     height: 128px;
     max-width: 128px;
