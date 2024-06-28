@@ -65,20 +65,26 @@ p {
     font-size: calc(12px + 0.390625vw);
 }
 
-h2 {
-    color: rgb(0, 127, 99);
-    font-family: 'Filmstrip', fantasy;
-    font-size: calc(76px + 0.390625vw);
-    overflow: hidden;
-}
-
 a {
     color: rgb(0, 127, 99);
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(43, 154, 164);
+    cursor: pointer;
+}
+
 h1 {
     font-size: 4rem;
+    font-family: 'Filmstrip', fantasy;
+}
+
+h2 {
+    color: rgb(0, 127, 99);
+    font-family: 'Filmstrip', fantasy;
+    font-size: calc(76px + 0.390625vw);
+    overflow: hidden;
 }
 
 @font-face {
@@ -113,9 +119,4 @@ h1 {
     * {
         font-size: calc(12px + 0.390625vw);
     }
-}
-
-a:hover {
-    color: rgb(43, 154, 164);
-    cursor: pointer;
 }
