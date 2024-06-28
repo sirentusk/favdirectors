@@ -92,31 +92,3 @@ h2 {
     src: url('font/movieola.ttf');
     font-style: normal;
 }
-
-@media only screen and (max-width: 920px) {
-    .page {
-        width: 80%;
-    }
-    
-    h2 {
-        color: rgb(0, 127, 99);
-        font-family: 'movieola', fantasy;
-        font-size: calc(76px + 0.390625vw);
-        overflow: hidden;
-    }
-
-    h3 {
-        color: rgb(0, 127, 99);
-        font-family: 'movieola', fantasy;
-        font-size: calc(40px + 0.390625vw);
-        overflow: hidden;
-    }
-
-    p {
-        font-size: calc(11px + 0.390625vw);
-    }
-
-    * {
-        font-size: calc(12px + 0.390625vw);
-    }
-}
