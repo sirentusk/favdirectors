@@ -1,14 +1,14 @@
 * {
-     color: rgb(195, 195, 195);
-     scroll-snap-type: y mandatory;
-     margin: 0;
-     padding: 0;
-     font-size: calc(15px + 0.390625vw);
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     box-sizing: border-box;
+    color: rgb(195, 195, 195);
+    scroll-snap-type: y mandatory;
+    margin: 0;
+    padding: 0;
+    font-size: calc(15px + 0.390625vw);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
     color: rgb(195, 195, 195);
     scroll-snap-type: y mandatory;    
-	box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: calc(15px + 0.390625vw);
@@ -91,13 +91,13 @@ section {
 }
 
 .top {
-	position: fixed;
+    position: fixed;
     right: 15px;
-	bottom: 20px;
-	padding: 10px 10px 10px 12px;
-	background: rgba(35,0,36,1);
-	border-radius: 100px;
-	box-shadow: 3px 3px 10px #000000;
+    bottom: 20px;
+    padding: 10px 10px 10px 12px;
+    background: rgba(35,0,36,1);
+    border-radius: 100px;
+    box-shadow: 3px 3px 10px #000000;
 }
 
 @media only screen and (max-width: 920px) {
