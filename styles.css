@@ -90,10 +90,6 @@ section {
     overflow: auto;
 }
 
-.page {
-    width: 50%;
-}
-
 .top {
 	position: fixed;
     right: 15px;
