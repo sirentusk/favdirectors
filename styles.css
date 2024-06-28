@@ -73,30 +73,9 @@ section {
     overflow: auto;
 }
 
-.top {
-    position: fixed;
-    right: 15px;
-    bottom: 20px;
-    padding: 10px 10px 10px 12px;
-    background: rgba(35,0,36,1);
-    border-radius: 100px;
-    box-shadow: 3px 3px 10px #000000;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: linear-gradient(to bottom, rgb(43, 154, 164, 0.5), rgb(128, 92, 0), rgb(0, 127, 99));
-    border-radius: 50px;
-    margin-top: 50px;
-    padding: 50px 50px 30px 50px;
+a:hover {
+    color: rgb(43, 154, 164);
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 920px) {
@@ -111,13 +90,6 @@ img {
         overflow: hidden;
     }
     
-    h3 {
-        color: rgb(0, 127, 99);
-        font-family: 'Arabolical', fantasy;
-        font-size: calc(40px + 0.390625vw);
-        overflow: hidden;
-    }
-
     p {
         font-size: calc(11px + 0.390625vw);
     }
@@ -125,9 +97,4 @@ img {
     * {
         font-size: calc(12px + 0.390625vw);
     }
-}
-
-a:hover {
-    color: rgb(43, 154, 164);
-    cursor: pointer;
 }
