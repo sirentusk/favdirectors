@@ -77,19 +77,19 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'Filmstrip', fantasy;
+    font-family: 'undevelope', fantasy;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'Filmstrip', fantasy;
+    font-family: 'undevelope', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
 }
 
 @font-face {
-    font-family: 'Filmstrip';
-    src: url('font/Filmstrip.otf');
+    font-family: 'undevelope';
+    src: url('font/undevelope.otf');
     font-style: normal;
 }
 
@@ -100,14 +100,14 @@ h2 {
     
     h2 {
         color: rgb(0, 127, 99);
-        font-family: 'Filmstrip', fantasy;
+        font-family: 'undevelope', fantasy;
         font-size: calc(76px + 0.390625vw);
         overflow: hidden;
     }
 
     h3 {
         color: rgb(0, 127, 99);
-        font-family: 'Filmstrip', fantasy;
+        font-family: 'undevelope', fantasy;
         font-size: calc(40px + 0.390625vw);
         overflow: hidden;
     }
