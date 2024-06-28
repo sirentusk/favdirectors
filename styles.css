@@ -15,7 +15,7 @@ html {
     scrollbar-width: thin; /* Gecko */
 }
 
-div img {
+.page img {
     max-width: 128px;
     max-height: 128px;    
 }
