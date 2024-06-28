@@ -77,18 +77,18 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'reed-of-love', fantasy;
+    font-family: 'advertising-gothic', fantasy;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'reed-of-love', fantasy;
+    font-family: 'advertising-gothic', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
 }
 
 @font-face {
-    font-family: 'reed-of-love';
-    src: url('font/reed-of-love.ttf');
+    font-family: 'advertising-gothic';
+    src: url('font/advertising-gothic.ttf');
     font-style: normal;
 }
