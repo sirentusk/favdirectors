@@ -77,20 +77,20 @@ a:hover {
 
 h1 {
     font-size: 4rem;
-    font-family: 'Avocado', fantasy;
+    font-family: 'Anagram', fantasy;
     line-height: 1.5;
 }
 
 h2 {
     color: rgb(0, 127, 99);
-    font-family: 'Avocado', fantasy;
+    font-family: 'Anagram', fantasy;
     font-size: calc(76px + 0.390625vw);
     overflow: hidden;
     line-height: 1.5;
 }
 
 @font-face {
-    font-family: 'Avocado';
-    src: url('font/Avocado.ttf');
+    font-family: 'Anagram';
+    src: url('font/Anagram.ttf');
     font-style: normal;
 }
