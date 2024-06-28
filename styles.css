@@ -52,6 +52,10 @@ section {
     overflow: auto;
 }
 
+.page {
+    width: 80%;
+}
+
 p {
     font-size: calc(12px + 0.390625vw);
 }
